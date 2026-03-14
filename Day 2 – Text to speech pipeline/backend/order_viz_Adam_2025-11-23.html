@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Coffee - Adam's Order</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+        .container {
+            text-align: center;
+        }
+        .drink-container {
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+        }
+        .cup {
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-bottom: 100px solid #8B4513;
+            position: relative;
+        }
+        .cup::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            height: 20px;
+            background: #D2691E;
+            border-radius: 0 10px 10px 0;
+        }
+        .cup-liquid {
+            position: absolute;
+            bottom: 0;
+            left: 5px;
+            right: 5px;
+            height: 60px;
+            background: linear-gradient(to bottom, #FFEBCD, #D2691E);
+            border-radius: 0 0 10px 10px;
+        }
+        .whipped-cream {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 20px;
+            background: #FFF8DC;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        /* Size variations */
+        .small .cup {
+            border-bottom-width: 60px;
+            border-left-width: 15px;
+            border-right-width: 15px;
+        }
+        .small .cup-liquid {
+            height: 30px;
+        }
+        .medium .cup {
+            border-bottom-width: 100px;
+            border-left-width: 20px;
+            border-right-width: 20px;
+        }
+        .medium .cup-liquid {
+            height: 60px;
+        }
+        .large .cup {
+            border-bottom-width: 140px;
+            border-left-width: 25px;
+            border-right-width: 25px;
+        }
+        .large .cup-liquid {
+            height: 90px;
+        }
+        .receipt {
+            background: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            max-width: 300px;
+            margin: 20px auto;
+        }
+        .receipt h2 {
+            margin-top: 0;
+            color: #8B4513;
+        }
+        .receipt ul {
+            list-style: none;
+            padding: 0;
+        }
+        .receipt li {
+            margin: 10px 0;
+            padding: 5px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .order-summary {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cosmic Coffee Order Visualizer</h1>
+        <div class="drink-container">
+            <div class="cup medium">
+                <div class="cup-liquid"></div>
+                
+            </div>
+        </div>
+        <div class="order-summary">
+            <p><strong>Adam's Order:</strong></p>
+            <p>Medium espresso with oat milk</p>
+            <p>Extras: sugar</p>
+        </div>
+        <div class="receipt">
+            <h2>Receipt</h2>
+            <ul>
+                <li><strong>Name:</strong> Adam</li>
+                <li><strong>Drink:</strong> espresso</li>
+                <li><strong>Size:</strong> medium</li>
+                <li><strong>Milk:</strong> oat</li>
+                <li><strong>Extras:</strong> sugar</li>
+            </ul>
+            <p>Total: $5.99 (placeholder)</p>
+        </div>
+    </div>
+</body>
+</html>

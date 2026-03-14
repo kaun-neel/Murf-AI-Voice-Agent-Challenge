@@ -1,0 +1,59 @@
+[
+    {
+        "date": "2025-11-23T21:59:46.451384",
+        "mood": "fine",
+        "energy": "seven",
+        "goals": [
+            "spend some time playing games"
+        ],
+        "summary": "Today's check-in shows you're feeling fine with good energy, planning to enjoy gaming on your day off."
+    },
+    {
+        "date": "2025-11-23T22:04:00.601753",
+        "mood": "low, dehydrated, and very stressed",
+        "energy": "zero or one",
+        "goals": [
+            "hit the gym",
+            "have a nice lunch"
+        ],
+        "summary": "Today's check-in shows you're feeling very low and stressed with almost no energy, aiming to hit the gym and enjoy a good lunch."
+    },
+    {
+        "date": "2025-11-23T22:07:33.210050",
+        "mood": "completely fine and top of my mood",
+        "energy": "ten out of ten",
+        "goals": [
+            "attend a cricket match and give my best"
+        ],
+        "summary": "Today's check-in shows you're feeling great with high energy, looking forward to a cricket match."
+    },
+    {
+        "date": "2025-11-23T22:18:09.427720",
+        "mood": "fine and rested",
+        "energy": "six out of ten",
+        "goals": [
+            "have breakfast",
+            "mow my lawn",
+            "attend my gym"
+        ],
+        "summary": "Today you're feeling fine and rested with moderate energy, with plans to tackle breakfast, yard work, and a gym session."
+    },
+    {
+        "date": "2025-11-23T22:29:18.085672",
+        "mood": "okay",
+        "energy": "ten out of ten",
+        "goals": [
+            "attend the cricket match"
+        ],
+        "summary": "Today you're feeling okay and very energetic, with plans to attend a cricket match."
+    },
+    {
+        "date": "2025-11-23T22:35:38.653098",
+        "mood": "a bit low and stressed",
+        "energy": "six out of ten",
+        "goals": [
+            "hit the gym"
+        ],
+        "summary": "Today you're feeling a bit low and stressed with moderate energy, and your main goal is to hit the gym."
+    }
+]

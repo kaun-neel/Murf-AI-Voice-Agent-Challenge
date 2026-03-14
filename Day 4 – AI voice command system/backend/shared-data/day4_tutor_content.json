@@ -1,0 +1,26 @@
+[
+  {
+    "id": "variables",
+    "title": "Variables",
+    "summary": "Variables are containers that store values in programming. Think of them like labeled boxes where you can put data and retrieve it later. For example, if you write 'name = John', you're storing the value John in a variable called name. Variables make your code reusable and flexible because you can change what's in the box without rewriting your entire program.",
+    "sample_question": "What is a variable and why is it useful in programming?"
+  },
+  {
+    "id": "loops",
+    "title": "Loops",
+    "summary": "Loops let you repeat actions multiple times without writing the same code over and over. There are two main types: for loops, which repeat a specific number of times, and while loops, which repeat as long as a condition is true. For example, a for loop might print numbers one through ten, while a while loop might keep asking for input until the user types quit.",
+    "sample_question": "Explain the difference between a for loop and a while loop."
+  },
+  {
+    "id": "functions",
+    "title": "Functions",
+    "summary": "Functions are reusable blocks of code that perform a specific task. You define a function once, then call it whenever you need that task done. Functions can take inputs called parameters and return outputs. For example, a function called add might take two numbers as inputs and return their sum. Functions help organize code and avoid repetition.",
+    "sample_question": "What is a function and how does it help organize your code?"
+  },
+  {
+    "id": "conditionals",
+    "title": "Conditionals",
+    "summary": "Conditionals let your program make decisions based on conditions. The most common is the if statement, which runs code only when a condition is true. You can also use else to run different code when the condition is false, and elif to check multiple conditions. For example, if temperature is greater than 30, print it's hot, else print it's cold.",
+    "sample_question": "How do if-else statements help programs make decisions?"
+  }
+]

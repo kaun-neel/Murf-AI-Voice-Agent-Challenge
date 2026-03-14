@@ -1,0 +1,20 @@
+[
+    {
+    "id": "Network",
+    "title": "Network",
+    "summary": "a group of interconnected devices that communicate and share resources, such as data, printers, and applications",
+    "sample_question": "Give example of a Network?"
+  },
+  {
+    "id": "LSTM",
+    "title": "LSTM",
+    "summary": "A Long short-term memory (LSTM) is a type of Recurrent Neural Network specially designed to prevent the neural network output for a given input from either decaying or exploding as it cycles through the feedback loops",
+    "sample_question": "What is the full form of LSTM?"
+  },
+  {
+    "id": "LLM",
+    "title": "LLM",
+    "summary": "LLM stands for Large Language Model, a type of artificial intelligence that understands and generates human language by learning from massive datasets of text",
+    "sample_question": "What is the full form of LLM?"
+  }
+]

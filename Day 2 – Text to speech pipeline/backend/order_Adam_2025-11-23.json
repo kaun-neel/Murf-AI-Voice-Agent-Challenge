@@ -1,0 +1,10 @@
+{
+  "name": "Adam",
+  "drinkType": "espresso",
+  "size": "medium",
+  "milk": "oat",
+  "extras": [
+    "sugar"
+  ],
+  "timestamp": "2025-11-23T10:52:27.746164"
+}

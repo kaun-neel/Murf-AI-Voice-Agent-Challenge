@@ -1,0 +1,10 @@
+{
+  "name": "Anirud",
+  "drinkType": "Americano",
+  "size": "large",
+  "milk": "almond",
+  "extras": [
+    "sugar"
+  ],
+  "timestamp": "2025-11-23T11:07:26.020326"
+}

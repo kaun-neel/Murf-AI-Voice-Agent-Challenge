@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Abhishek",
+        "company": "Tarzan",
+        "email": "ninedoubleone@ymail.com",
+        "role": null,
+        "use_case": "integrating voice AI into chat support",
+        "team_size": "400",
+        "timeline": "Next week",
+        "timestamp": "2025-11-25T19:25:47.408111"
+    },
+    {
+        "name": "Abhishek",
+        "company": "Tarzan",
+        "email": "ninedoubleone@ymail.com",
+        "role": "Admin",
+        "use_case": "integrating voice AI into chat support",
+        "team_size": "400",
+        "timeline": "Next week",
+        "timestamp": "2025-11-25T19:26:39.729523"
+    },
+    {
+        "name": "Anirud",
+        "company": "IIT Jammu",
+        "email": "devanjianirootfour816e@gmail.com",
+        "role": "AI research intern",
+        "use_case": "voice AI courses",
+        "team_size": null,
+        "timeline": "Next week",
+        "timestamp": "2025-11-26T13:43:30.490552"
+    },
+    {
+        "name": "Anirudh",
+        "company": "IIT Jammu",
+        "email": "four816e@gmail.com",
+        "role": "AI research intern",
+        "use_case": "deepen theoretical understanding of NLP",
+        "team_size": null,
+        "timeline": "Next week",
+        "timestamp": "2025-11-26T14:30:19.265939"
+    }
+]

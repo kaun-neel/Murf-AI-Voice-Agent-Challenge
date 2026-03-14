@@ -1,0 +1,10 @@
+{
+  "name": "Spike",
+  "drinkType": "espresso",
+  "size": "small",
+  "milk": "none",
+  "extras": [
+    "chocolate sprinkles"
+  ],
+  "timestamp": "2025-11-23T10:39:49.340736"
+}
